@@ -1,0 +1,20 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar el archivo .env (si contiene información sensible)
+.env
+
+# Ignorar archivos .DS_Store en macOS
+.DS_Store
+
+# Archivos específicos de IDE (si usas VSCode, por ejemplo)
+.vscode/
+.idea/
+
+# Archivos de log
+*.log
+
+# Otros archivos temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
